@@ -1,14 +1,14 @@
 input
 {
-	font-size: 18px;
-	height: 10%;
+	font-size: 4vmin;
+	height: 4vmin;
 	width: 100%;
-	padding: 2% 2% 2% 3%;
 	border:none;
 	outline:none;
 	background-color: #f7f7f7;
 	color: #666;
 	box-sizing: border-box;
+	padding: 2%;
 }
 
 input:focus
@@ -18,7 +18,10 @@ input:focus
 	outline: none;
 }
 
-
+html
+{
+	min-height: 360px;
+}
 h1
 {
 	background-color: #2980b9;
@@ -26,12 +29,13 @@ h1
 	color: white;
 	margin: 0;
 	padding: 2% 4%;
-	font-size: 200%;
+	font-size: 7vmin;
 	font-weight: normal;
 }
 
 body
 {
+	min-height: 360px;
 	user-select: none;
 	background: #283c86;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
@@ -48,11 +52,12 @@ ul
 
 li
 {
-	padding: 2% 2% 2% 3%;
 	background-color: white;
-	height: 100%;
+	height: 4vmin;
 	line-height: 100%;
 	color: #666;
+	font-size: 4vmin;
+	padding: 0.5%;
 
 }
 
@@ -64,6 +69,7 @@ li:hover #del
 {
 	width: 3%;
 	opacity: 1.0;
+	height: 100%;
 }
 
 .clicked
@@ -97,6 +103,7 @@ li:hover #del
 	min-width: 360px;
 	margin:10% auto;
 	max-width: 900px;
+	height: 90%;
 	width: 90%;
 	background-color: #f7f7f7;
 	box-shadow: 0 0 3px rgba(0,0,0,0.15)

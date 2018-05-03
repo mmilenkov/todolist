@@ -35,7 +35,6 @@ h1
 
 body
 {
-	min-height: 360px;
 	user-select: none;
 	background: #283c86;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
